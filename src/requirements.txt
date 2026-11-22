@@ -1,0 +1,5 @@
+# Python 3.11 inference dependencies for the Samsung evaluation container.
+numpy==1.26.4
+mediapipe==0.10.21
+onnxruntime==1.23.2
+opencv-python-headless==4.11.0.86
