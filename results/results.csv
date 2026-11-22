@@ -1,0 +1,5 @@
+metric,target,measured,unit,device,runtime,pass
+top1_accuracy,>=70,66.0606,%,arm64,ONNX Runtime 1.20.1 CPUExecutionProvider,FAIL
+latency_p95,<=50,14.3540,ms,arm64,ONNX Runtime 1.20.1 CPUExecutionProvider,PASS
+model_size,<=20,4.7753,MB,arm64,ONNX Runtime 1.20.1 CPUExecutionProvider,PASS
+accuracy_drop_robustness,<=5,5.4545,pt,arm64,ONNX Runtime 1.20.1 CPUExecutionProvider,FAIL
